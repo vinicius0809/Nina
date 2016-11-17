@@ -1,0 +1,21 @@
+Sistema Desktop {
+
+	> O sistema deve registrar a chegada de um associado ao seu horário de permanência após a inserção do RA do mesmo.
+		- Antes de o associado sair, deve inserir o RA novamente, para que o sistema registre sua saída.
+
+	> Caso um associado não chegue  em XX minutos, o sistema deve registrar um evento de "falta".
+}
+
+Sistema WEB - Associado {
+
+	> O sistema deve fornecer um lugar para justificar um evento prévio ou futuro de "falta".
+	
+	> Permitir que o usuário acesse o seu banco de horas, para saber se tem horas faltando ou sobrando.
+
+	> Permitir a visualização do seu horário de permanência.
+		- Caso um novo período de permanência esteja aberto, o sistema deve possibilitar a alteração dos horários.
+
+	> Se o usuário precisar permutar algum horário, o sistema abrirá uma requisição de permutação, que deve ser vista por todos os outros associados.
+}
+
+Sistema WEB - Diretor {}				
